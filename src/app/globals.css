@@ -594,20 +594,23 @@ html, body {
   position: absolute;
   inset: 0;
   border-radius: 22px;
-  z-index: 2;
+  z-index: 1;
   cursor: pointer;
+  pointer-events: auto;
 }
 
 .project-main,
 .project-visual {
   position: relative;
-  z-index: 1;
+  z-index: 2;
+  pointer-events: none;
 }
 
 .project-actions,
 .project-actions a {
   position: relative;
   z-index: 3;
+  pointer-events: auto;
 }
 
 .project-featured {
