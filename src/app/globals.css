@@ -582,11 +582,32 @@ html, body {
   background: rgba(13, 21, 36, 0.74);
   box-shadow: var(--shadow-soft);
   transition: transform 180ms ease, border-color 180ms ease;
+  position: relative;
 }
 
 .project-card:hover {
   transform: translateY(-2px);
   border-color: rgba(124, 140, 255, 0.38);
+}
+
+.project-card-overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 22px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.project-main,
+.project-visual {
+  position: relative;
+  z-index: 1;
+}
+
+.project-actions,
+.project-actions a {
+  position: relative;
+  z-index: 3;
 }
 
 .project-featured {
@@ -748,7 +769,7 @@ html, body {
 
 .mini-projects {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
   margin-top: 18px;
 }
@@ -756,6 +777,19 @@ html, body {
 .project-compact {
   flex-direction: column;
   min-height: 100%;
+}
+
+.more-projects-heading {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.more-projects-heading h3 {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: clamp(1.2rem, 1.2vw + 0.8rem, 1.8rem);
+  letter-spacing: -0.05em;
+  font-weight: 600;
 }
 
 .mini-meta {
@@ -1286,6 +1320,10 @@ html, body {
 
 @media (max-width: 1024px) {
   .skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mini-projects {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

@@ -18,6 +18,15 @@ export function Projects() {
       <div className="projects-grid">
         {featuredProjects.map((project) => (
           <article key={project.title} className="project-card project-featured">
+            {project.githubUrl ? (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-card-overlay"
+                aria-label={`Open ${project.title} GitHub repository`}
+              />
+            ) : null}
             <div className="project-main">
               <div className="project-topline">
                 <span className="project-category">{project.category}</span>
@@ -56,12 +65,12 @@ export function Projects() {
 
               <div className="project-actions">
                 {project.githubUrl ? (
-                  <a href={project.githubUrl} className="project-link" target="_blank" rel="noreferrer">
+                  <a href={project.githubUrl} className="project-link" target="_blank" rel="noopener noreferrer">
                     GitHub
                   </a>
                 ) : null}
                 {project.demoUrl ? (
-                  <a href={project.demoUrl} className="project-link project-link-alt" target="_blank" rel="noreferrer">
+                  <a href={project.demoUrl} className="project-link project-link-alt" target="_blank" rel="noopener noreferrer">
                     Live Demo
                   </a>
                 ) : null}
@@ -77,9 +86,22 @@ export function Projects() {
       </div>
 
       {compactProjects.length > 0 ? (
-        <div className="mini-projects">
-          {compactProjects.map((project) => (
-            <article key={project.title} className="project-card project-compact">
+        <>
+          <div className="more-projects-heading">
+            <h3>Diğer Projeler</h3>
+          </div>
+          <div className="mini-projects">
+            {compactProjects.map((project) => (
+              <article key={project.title} className="project-card project-compact">
+              {project.githubUrl ? (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-card-overlay"
+                  aria-label={`Open ${project.title} GitHub repository`}
+                />
+              ) : null}
               <div className="project-topline">
                 <span className="project-category">{project.category}</span>
                 <span className="project-status">{project.status}</span>
@@ -103,19 +125,20 @@ export function Projects() {
 
               <div className="project-actions compact-actions">
                 {project.githubUrl ? (
-                  <a href={project.githubUrl} className="project-link" target="_blank" rel="noreferrer">
+                  <a href={project.githubUrl} className="project-link" target="_blank" rel="noopener noreferrer">
                     GitHub
                   </a>
                 ) : null}
                 {project.demoUrl ? (
-                  <a href={project.demoUrl} className="project-link project-link-alt" target="_blank" rel="noreferrer">
+                  <a href={project.demoUrl} className="project-link project-link-alt" target="_blank" rel="noopener noreferrer">
                     Live Demo
                   </a>
                 ) : null}
               </div>
             </article>
-          ))}
-        </div>
+            ))}
+          </div>
+        </>
       ) : null}
     </section>
   );
