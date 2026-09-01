@@ -274,9 +274,10 @@ export const projects: Project[] = [
       "Role-based access control prensipleri ile güvenli ve esnek authorization sistemi.",
     role: ["Backend Development", "Authorization Design", "Security Implementation"],
     technologies: [
-      "ASP.NET Core",
-      "Authorization",
-      "Authentication",
+      ".NET Framework 4.7.2",
+      "ASP.NET Web Forms",
+      "C#",
+      "Forms Authentication",
       "Role-Based Access Control",
     ],
     githubUrl: "https://github.com/esma778787/RoleBazl-erisim",
