@@ -1,49 +1,80 @@
-# Esma Kula – Personal Portfolio
+# Esma Kula — Developer Portfolio
 
-Personal portfolio focused on SEO, GEO, DevOps, AI and web technologies.
+A production portfolio presenting my work across backend development, cloud and DevOps, applied AI, web applications, and embedded systems.
+
+**Live:** [esma-kula-portfolio.vercel.app](https://esma-kula-portfolio.vercel.app)
+
+## What It Includes
+
+- Professional experience and technical skills
+- Featured and additional project collections
+- Direct links to GitHub repositories
+- Responsive layouts for desktop and mobile
+- Search-engine and social-sharing metadata
+- Structured data for person, website, and profile-page entities
+- Accessible, semantic page structure
 
 ## Tech Stack
 
-- Next.js
+- Next.js 16
+- React 19
 - TypeScript
-- CSS
-- Microsoft Azure / DevOps background
-- Technical SEO
-- Schema.org / JSON-LD
+- Tailwind CSS 4
+- Vercel
 
-## Technical SEO Features
+## SEO and GEO Foundations
 
-- Metadata API
-- Canonical URL
-- robots.txt
-- sitemap.xml
-- Person / WebSite / ProfilePage JSON-LD
-- Open Graph
-- Twitter metadata
-- Optimized profile image
-- Semantic HTML
+- Next.js Metadata API
+- Canonical URLs
+- `robots.txt` and `sitemap.xml`
+- Open Graph and Twitter metadata
+- Schema.org JSON-LD
+- Semantic HTML and descriptive content hierarchy
+- Optimized profile and project imagery
 
-## Performance
+## Local Development
 
-Lighthouse production median:
+### Prerequisites
 
-- Performance: 95
-- Accessibility: 100
-- Best Practices: 100
-- SEO: 100
+- Node.js 20 or newer
+- npm
 
-## Environment Setup
-
-Before deployment, configure the production environment variable:
+### Setup
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://your-production-domain.com
+git clone https://github.com/esma778787/esma-kula-portfolio.git
+cd esma-kula-portfolio
+npm install
 ```
 
-For local development, the default example value remains:
+Create `.env.local` and define the site URL:
 
-```bash
+```env
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
-This value should be updated in the Vercel dashboard after deployment.
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+## Quality Checks
+
+```bash
+npm run lint
+npm run build
+```
+
+For production deployment, set `NEXT_PUBLIC_SITE_URL` to the final public domain.
+
+## Focus
+
+The portfolio is designed for Junior Software Developer, Backend, Cloud/DevOps, integration, and applied-AI opportunities.
+
+## Contact
+
+- [LinkedIn](https://linkedin.com/in/esma-kula)
+- [GitHub](https://github.com/esma778787)
