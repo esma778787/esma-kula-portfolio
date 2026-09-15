@@ -4,11 +4,10 @@ export function SeoGeo() {
   return (
     <section id="seo-geo" aria-labelledby="seo-geo-heading">
       <div className="section-heading">
-        <p className="section-kicker">SEO & GEO</p>
-        <h2 id="seo-geo-heading">Arama Görünürlüğü & AI Search</h2>
+          <p className="section-kicker">Secondary Focus</p>
+          <h2 id="seo-geo-heading">Web & Search Technologies</h2>
         <p className="section-copy">
-          İçerik SEO deneyimimi web altyapısı bilgim ve üretken yapay zekâ odaklı arama
-          teknolojileriyle birleştiriyorum.
+          AI, backend ve cloud çalışmalarımı destekleyen web altyapısı ve search fundamentals bilgim.
         </p>
       </div>
 
@@ -62,17 +61,17 @@ export function SeoGeo() {
       </div>
 
       <div className="seo-connect" aria-label="Nasıl birleşiyor?">
-        <h3>How It Connects</h3>
+        <h3>Supporting Knowledge</h3>
         <p>
-          İçerik stratejisi + Web altyapısı + AI & GEO = Modern Search Visibility
+          Technical SEO + Web Architecture + HTTP/HTTPS + DNS
         </p>
 
         <div className="flow-diagram" aria-hidden="true">
-          <span>İçerik stratejisi</span>
+          <span>Web Architecture</span>
           <span className="flow-arrow">→</span>
-          <span>Web altyapısı</span>
+          <span>HTTP / HTTPS</span>
           <span className="flow-arrow">→</span>
-          <span>AI & GEO</span>
+          <span>Search Fundamentals</span>
         </div>
       </div>
     </section>

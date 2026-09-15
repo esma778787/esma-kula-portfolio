@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Esma Kula",
-  title: "Esma Kula | SEO, GEO, DevOps & AI",
+  title: "Esma Kula | AI Engineer | Python, LLM & Azure",
   description:
-    "SEO, GEO, DevOps, yapay zekâ ve web teknolojileri üzerine çalışmalarını ve projelerini paylaşan Esma Kula'nın kişisel portfolyosu.",
+    "Esma Kula'nın AI engineering portfolyosu: Python backend services, LLM integrations, REST APIs, computer vision ve Microsoft Azure çalışmaları.",
   locale: "tr_TR",
   language: "tr",
   socials: {

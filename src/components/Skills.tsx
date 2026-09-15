@@ -7,7 +7,7 @@ export function Skills() {
         <p className="section-kicker">Skills</p>
         <h2 id="skills-heading">Teknik Yetkinlikler</h2>
         <p className="section-copy">
-          SEO ve arama teknolojilerinden bulut, yapay zekâ ve yazılım geliştirmeye uzanan teknik çalışma alanlarım.
+          AI uygulamaları, backend servisleri, Azure altyapısı ve computer vision çalışmalarımda kullandığım teknik alanlar.
         </p>
       </div>
 

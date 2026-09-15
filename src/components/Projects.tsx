@@ -1,7 +1,20 @@
 import { projects } from "@/data/projects";
 
 export function Projects() {
-  const featuredProjects = projects.filter((project) => project.featured);
+  const projectPriority = [
+    "AI-Powered Erasmus+ Application Simulation Platform",
+    "Computer Vision Dataset Annotation Tool",
+  ];
+  const featuredProjects = projects
+    .filter((project) => project.featured)
+    .sort((first, second) => {
+      const firstIndex = projectPriority.indexOf(first.title);
+      const secondIndex = projectPriority.indexOf(second.title);
+      return (
+        (firstIndex === -1 ? projectPriority.length : firstIndex) -
+        (secondIndex === -1 ? projectPriority.length : secondIndex)
+      );
+    });
   const compactProjects = projects.filter((project) => !project.featured);
 
   return (
@@ -10,8 +23,8 @@ export function Projects() {
         <p className="section-kicker">Selected Work</p>
         <h2 id="projects-heading">Projeler</h2>
         <p className="section-copy">
-          Yazılım, yapay zekâ, DevOps ve web teknolojilerini bir araya getirdiğim seçili
-          çalışmalar.
+          LLM entegrasyonları, Python backend servisleri, computer vision ve cloud altyapısı
+          üzerine seçili çalışmalar.
         </p>
       </div>
 

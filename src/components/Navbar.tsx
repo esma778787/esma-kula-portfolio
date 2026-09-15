@@ -1,7 +1,7 @@
 const navItems = [
   { label: "Projeler", href: "#projects" },
   { label: "Deneyim", href: "#experience" },
-  { label: "SEO & GEO", href: "#seo-geo" },
+  { label: "Web & Search", href: "#seo-geo" },
   { label: "Yetenekler", href: "#skills" },
   { label: "Hakkımda", href: "#about" },
   { label: "İletişim", href: "#contact" },

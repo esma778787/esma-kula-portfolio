@@ -1,4 +1,9 @@
 const technologyItems = [
+  "AI Engineer",
+  "Python",
+  "LLM",
+  "REST API",
+  "Computer Vision",
   "Microsoft Azure",
   "GitHub",
   "GitHub Actions",
@@ -15,9 +20,7 @@ const technologyItems = [
   "HTML",
   "CSS",
   "JavaScript",
-  "SEO",
-  "GEO",
-  "AI",
+  "Power BI",
 ];
 
 export function TechnologyMarquee() {

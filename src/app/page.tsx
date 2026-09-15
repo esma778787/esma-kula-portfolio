@@ -11,7 +11,7 @@ import { TechnologyMarquee } from "@/components/TechnologyMarquee";
 
 const stats = [
   { value: "10+", label: "Projects" },
-  { value: "3", label: "Focus Areas" },
+  { value: "4", label: "AI Focus Areas" },
   { value: "15+", label: "Technologies" },
 ];
 
@@ -40,11 +40,11 @@ export default function Home() {
 
         <Experience />
 
-        <SeoGeo />
-
         <Skills />
 
         <About />
+
+        <SeoGeo />
 
         <Contact />
 

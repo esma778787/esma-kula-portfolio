@@ -13,24 +13,23 @@ export function Hero() {
 
       <div className="hero-content">
         <div className="hero-copy">
-          <p className="eyebrow">SEO &amp; GEO • DevOps • AI</p>
+          <p className="eyebrow">Artificial Intelligence Engineer</p>
 
           <h1 id="home-title" className="hero-title">
-            Esma Kula
+            AI Engineer • Python • LLM • Azure
           </h1>
 
-          <p className="hero-subtitle">SEO &amp; GEO | DevOps | AI &amp; Web Technologies</p>
+          <p className="hero-subtitle">Artificial Intelligence &amp; Backend Engineering</p>
 
           <p className="hero-description">
-            İçerik görünürlüğü, web teknolojileri, DevOps ve yapay zekâ destekli arama
-            sistemleri üzerine çalışan bilgisayar mühendisliği odaklı bir teknoloji
-            profesyoneliyim. İçerik SEO deneyimimi teknik web altyapısı ve yapay zekâ
-            bilgimle birleştiriyorum.
+            Final-year Computer Engineering student building AI-powered applications, Python
+            backend services and cloud-based systems. Hands-on experience with LLM integrations,
+            REST APIs, computer vision and Microsoft Azure.
           </p>
 
           <div className="hero-actions">
             <a href="#projects" className="primary-button">
-              Projelerimi Gör
+              View AI Projects
             </a>
             <a
               href={siteConfig.cvUrl}
@@ -38,7 +37,7 @@ export function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              CV&apos;yi İncele
+              Download CV
             </a>
           </div>
 

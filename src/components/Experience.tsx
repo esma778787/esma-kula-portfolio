@@ -1,7 +1,17 @@
 import { experience } from "@/data/experience";
 
 export function Experience() {
-  const featuredExperiences = experience.filter((item) => item.featured);
+  const experiencePriority = ["Nephos Systems", "RoboGPT"];
+  const featuredExperiences = experience
+    .filter((item) => item.featured)
+    .sort((first, second) => {
+      const firstIndex = experiencePriority.indexOf(first.organization);
+      const secondIndex = experiencePriority.indexOf(second.organization);
+      return (
+        (firstIndex === -1 ? experiencePriority.length : firstIndex) -
+        (secondIndex === -1 ? experiencePriority.length : secondIndex)
+      );
+    });
   const secondaryExperiences = experience.filter((item) => !item.featured);
 
   return (
@@ -10,8 +20,7 @@ export function Experience() {
         <p className="section-kicker">Experience</p>
         <h2 id="experience-heading">Deneyim</h2>
         <p className="section-copy">
-          Yazılım geliştirme, DevOps, web yönetimi ve SEO odaklı içerik çalışmalarını bir araya
-          getiren teknik ve operasyonel deneyimlerim.
+          AI/backend geliştirme, computer vision ve Microsoft Azure ekosistemindeki uygulamalı deneyimlerim.
         </p>
       </div>
 
@@ -52,7 +61,7 @@ export function Experience() {
 
                 {item.organization === "Nephos Systems" ? (
                   <p className="technical-note">
-                    Technical foundation: Web infrastructure • DNS • HTTP • Routing • Monitoring
+                    Technical foundation: Azure infrastructure • Containers • CI/CD • Monitoring
                   </p>
                 ) : null}
 

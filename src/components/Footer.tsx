@@ -1,7 +1,7 @@
 const footerLinks = [
   { label: "Projects", href: "#projects" },
   { label: "Experience", href: "#experience" },
-  { label: "SEO & GEO", href: "#seo-geo" },
+  { label: "Web & Search", href: "#seo-geo" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
 ];
@@ -11,7 +11,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="footer-brand-block">
         <span className="footer-brand">Esma Kula</span>
-        <p>SEO & GEO • DevOps • AI • Web Technologies</p>
+        <p>AI Engineer • Python • LLM • Azure</p>
       </div>
 
       <div className="footer-links" aria-label="Footer navigasyonu">

@@ -19,17 +19,18 @@ export const projects: Project[] = [
     category: "AI / Full Stack / Mobile",
     status: "Completed",
     shortDescription:
-      "Erasmus+ başvuru sürecini simüle eden mobil uygulama. Kullanıcıların motivasyon mektubu ve CV hazırlamasına, başvurularını değerlendirmesine ve AI destekli geri bildirim almasına olanak sağlar.",
+      "Flutter ve Python tabanlı Erasmus+ simülasyonu with 700+ Erasmus records: LLM-generated motivation letters, AI-assisted CV generation ve AI-based application evaluation and feedback.",
     problem:
       "Erasmus+ başvuru sürecindeki hazırlık eksikliği ve kullanıcıların başvuru öncesi deneyim kazanamaması.",
     solution:
-      "Flutter mobil arayüz, Flask API, veri katmanı ve AI servisleri kullanılarak simülasyon platformu geliştirilmesi.",
+      "Flask REST API, OpenRouter API ve veri katmanı ile API-driven architecture; structured prompting üzerinden AI özelliklerinin mobil akışlara bağlanması.",
     role: [
       "Full-Stack Development",
       "Mobile Development",
       "Backend API",
       "Database Integration",
-      "AI Integration",
+      "LLM Integration",
+      "Prompt Engineering",
     ],
     technologies: [
       "Flutter",
@@ -38,8 +39,10 @@ export const projects: Project[] = [
       "Flask",
       "REST API",
       "MongoDB",
-      "SQL Server",
-      "AI Integration",
+      "MSSQL",
+      "LLM",
+      "OpenRouter",
+      "Prompt Engineering",
     ],
     githubUrl: "https://github.com/esma778787/erasmus-simulasyon",
     demoUrl: null,
@@ -111,15 +114,16 @@ export const projects: Project[] = [
     category: "AI / Computer Vision / Desktop",
     status: "Completed",
     shortDescription:
-      "Canlı kamera görüntüsü veya mevcut image datasetleri üzerinde bounding box annotation yapılmasını ve YOLO / Pascal VOC formatında training dataset üretilmesini sağlayan masaüstü araç.",
+      "Qt tabanlı computer vision aracı: canlı kamera veya image datasetleri üzerinde bounding box annotation, dataset validation ve YOLO / Pascal VOC çıktıları.",
     problem:
       "Computer vision modellerinin eğitiminde veri etiketleme sürecinin manuel ve zaman alıcı olması.",
     solution:
-      "Qt6 tabanlı arayüz ile kamera görüntüsü veya datasetler üzerinde hızlı annotation ve doğrudan model eğitimine uygun çıktı üretimi.",
+      "Qt annotation tool ile dataset consistency kontrolleri, YOLO dataset preparation ve model training workflow'una uygun export süreçleri.",
     role: [
       "Desktop Application Development",
       "Computer Vision Tooling",
       "Dataset Pipeline Development",
+      "Dataset Validation",
     ],
     technologies: [
       "Qt6",

@@ -126,9 +126,9 @@ export default function Image() {
               }}
             >
               {[
-                "SEO & GEO",
-                "DevOps",
-                "AI & Web Technologies",
+                "AI Engineer",
+                "Python • LLM",
+                "Azure • Computer Vision",
               ].map((item) => (
                 <span
                   key={item}

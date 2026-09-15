@@ -1,23 +1,23 @@
 const focusAreas = [
   {
     index: "01",
-    title: "SEO & Search",
-    description: "Content SEO, On-Page SEO, Technical SEO ve GEO.",
+    title: "AI Applications",
+    description: "LLM integrations, prompt engineering ve AI-assisted workflows.",
   },
   {
     index: "02",
-    title: "Cloud & DevOps",
-    description: "Microsoft Azure, GitHub, CI/CD, networking ve monitoring.",
+    title: "Backend Engineering",
+    description: "Python, REST APIs, Flask, FastAPI ve veri tabanları.",
   },
   {
     index: "03",
-    title: "AI & Automation",
-    description: "Generative AI, LLM entegrasyonları, prompt engineering ve agent tabanlı geliştirme.",
+    title: "Cloud & DevOps",
+    description: "Microsoft Azure, containers, GitHub Actions, CI/CD ve monitoring.",
   },
   {
     index: "04",
-    title: "Software Engineering",
-    description: "Backend, web, mobil ve gömülü sistem geliştirme.",
+    title: "Computer Vision",
+    description: "YOLO dataset workflows, annotation tooling ve computer vision fundamentals.",
   },
 ];
 
@@ -32,25 +32,27 @@ export function About() {
       <div className="about-layout">
         <div className="about-copy-block">
           <p>
-            Bilgisayar mühendisliği altyapımı yazılım geliştirme, DevOps, yapay zekâ ve arama
-            teknolojileriyle birleştiriyorum.
+            Final-year Computer Engineering student olarak AI uygulamaları, backend geliştirme ve
+            cloud engineering kesişiminde çalışıyorum.
           </p>
           <p>
-            Teknik çalışmalarımın yanında web içerik yönetimi ve SEO odaklı içerik süreçlerinde de
-            uygulamalı deneyim kazandım. Bu nedenle yalnızca yazılım veya yalnızca içerik tarafına
-            odaklanan bir profil yerine; web altyapısı, içerik görünürlüğü ve yapay zekâ
-            teknolojileri arasındaki ilişkiyi anlayabilen multidisipliner bir yaklaşım geliştirmeye
-            çalışıyorum.
+            Python, Flask, FastAPI ve REST API deneyimimi LLM entegrasyonları, structured prompt
+            workflows ve AI-assisted application flows ile birleştiriyorum. Erasmus+ simülasyonunda
+            OpenRouter üzerinden motivasyon mektubu, CV üretimi ve başvuru değerlendirme akışları
+            geliştirdim.
+          </p>
+            <p>
+              Deneyimim ayrıca enterprise AI bağlamında RAG-based workflows, LLM grounding, computer
+              vision ve Microsoft Azure çalışmalarını kapsıyor.
+            </p>
+          <p>
+            Microsoft Azure, GitHub Actions, Docker ve Linux ile deployment, networking, identity,
+            monitoring ve CI/CD süreçleri üzerinde uygulamalı çalışmalar yaptım.
           </p>
           <p>
-            Microsoft Azure, GitHub ve DevOps teknolojileri üzerinde gerçekleştirdiğim çalışmalar
-            sayesinde web uygulamalarının deployment, DNS, HTTP, networking, monitoring ve
-            performans katmanlarını teknik olarak inceleme fırsatı buldum.
-          </p>
-          <p>
-            SEO tarafında ise Content SEO ve On-Page SEO uygulamalarında deneyim sahibiyim.
-            Technical SEO ve GEO alanlarında mevcut teknik altyapımı kullanarak araştırma,
-            uygulama ve test çalışmalarımı sürdürüyorum.
+            RoboGPT stajımda Python/Flask backend, Raspberry Pi/Linux ve Qt tabanlı annotation
+            tooling ile YOLO ve Pascal VOC dataset workflows üzerinde çalıştım. Web & Search
+            Technologies ise teknik profilimi destekleyen ikincil bir çalışma alanı.
           </p>
         </div>
 

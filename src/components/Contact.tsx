@@ -7,7 +7,7 @@ export function Contact() {
         <p className="section-kicker">Contact</p>
         <h2 id="contact-heading">İletişime Geç</h2>
         <p className="section-copy">
-          SEO, GEO, DevOps, yapay zekâ ve yazılım geliştirme odaklı iş ve proje fırsatları için benimle iletişime geçebilirsiniz.
+          AI engineering, Python backend ve cloud tabanlı fırsatlar için benimle iletişime geçebilirsiniz.
         </p>
       </div>
 
@@ -15,7 +15,8 @@ export function Contact() {
         <div className="contact-copy">
           <h3>Birlikte çalışmak ister misiniz?</h3>
           <p>
-            Yeni teknolojileri öğrenmeye, gerçek projelerde sorumluluk almaya ve teknik altyapımı arama görünürlüğü ve yapay zekâ alanlarıyla geliştirmeye devam ediyorum.
+            AI-powered applications, backend services ve Microsoft Azure ekosisteminde yeni teknik
+            sorumluluklar almaya devam ediyorum.
           </p>
         </div>
 
